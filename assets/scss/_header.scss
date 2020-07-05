@@ -1,10 +1,14 @@
 .header {
-  background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   padding: 20px;
+  background: url("/head-bkg.png") no-repeat left top #fafafa;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 
   .dark-theme & {
     background: #252627;
